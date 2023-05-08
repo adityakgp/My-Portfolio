@@ -1,45 +1,46 @@
 import React from "react";
-import basicNotes from "../assets/projects/basicNotes.png";
-import basicPortfolio from "../assets/projects/basicPortfolio.png";
-import discordjs from "../assets/projects/discordjs.png";
-import linktree from "../assets/projects/linktreeClone.png";
-import safesurf from "../assets/projects/safesurf.png";
+import noteapp from "../assets/projects/noteapp.png";
+import portfolio from "../assets/projects/portfolio.png";
+import savelarvas from "../assets/projects/savelarvas.png";
+import textformat from "../assets/projects/textformat.png";
+import nekonews from "../assets/projects/nekonews.png";
 
 const Projects = () => {
   const projects = [
     {
       id: 1,
-      name: "Discord Bot",
-      src: discordjs,
-      href: "https://github.com/AgrPaavan/Discord-Bot",
+      name: "Javascript Game",
+      src: savelarvas,
+      href: "https://github.com/adityakgp/save-the-larvas",
+      deploy: "https://adityakgp.github.io/save-the-larvas/",
     },
     {
       id: 2,
-      name: "Phishing Detecting Extension",
-      src: safesurf,
-      href: "https://github.com/AgrPaavan/SafeSurf",
+      name: "News App",
+      src: nekonews,
+      href: "https://github.com/adityakgp/NekoNews",
       shadow: "shadow-[#0093d3]",
     },
     {
       id: 3,
-      name: "Basic Portfolio Site",
-      src: basicPortfolio,
+      name: "Portfolio Site",
+      src: portfolio,
       href: "https://github.com/AgrPaavan/basic-portfolio",
-      deploy: "https://agrpaavan.github.io/basic-portfolio",
+      deploy: "https://adityakgp.github.io/save-the-larvas/",
     },
     {
       id: 4,
-      name: "Basic Notes Application",
-      src: basicNotes,
-      href: "https://github.com/AgrPaavan/notes-app",
-      deploy: "https://agrpaavan-notes-app.netlify.app/",
+      name: "Note App",
+      src: noteapp,
+      href: "https://github.com/adityakgp/My-Note-Book",
+      deploy: "https://my-notebook-e899a.web.app/signup",
     },
     {
       id: 5,
-      name: "Linktree Clone",
-      src: linktree,
-      href: "https://github.com/AgrPaavan/linktree-clone",
-      deploy: "https://agrpaavan-linktree-clone.netlify.app/",
+      name: "Text Formatter",
+      src: textformat,
+      href: "https://github.com/adityakgp/Text-Formatter-React",
+      deploy: "https://adityakgp.github.io/Text-Formatter-React/",
       shadow: "shadow-[#43e660]",
     },
   ];

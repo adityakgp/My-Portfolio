@@ -1,8 +1,12 @@
 import React from "react";
+import Text from "./Text"
 import { HiOutlineArrowRight } from "react-icons/hi";
-import { Link } from "react-scroll";
+// import { Link } from "react-scroll";
 
 const Home = () => {
+    const handleRedirect = () => {
+    window.open('https://drive.google.com/file/d/17tV5nm93UGZ_ZRsgce-6eM31KT7x-_K5/view?usp=share_link', '_blank');
+    }
   return (
     <div
       name="home"
@@ -14,30 +18,31 @@ const Home = () => {
             Hi, I'm
           </h3>
           <h2 className="text-4xl sm:text-7xl font-bold text-white">
-            Paavan Agrawal
+            Aditya Das
           </h2>
-          <p className="text-gray-500 py-4 max-w-sm sm:max-w-xl">
-            I am a 2nd year CSE student at SRMIST, India. I am most interested
-            in the field of web development and am currently trying to grasp
-            knowledge of new technologies in the field.
-          </p>
+          <span></span>
+          <Text/>
+          {/* <p className="text-white py-4 max-w-sm sm:max-w-xl">
+          Student at Indian Institute of Technology Kharagpur and a full-stack developer with expertise in web development, data mining, and machine learning. I've worked as a developer and head of web at Chi Squarex Technologies. I'm passionate about new technologies and love exploring the intersection between technology and science.
+          </p> */}
 
           <div className="hidden md:inline">
-            <Link to="projects" smooth duration={500} offset={-80}>
-              <button className="group text-white w-fit px-6 py-3 my-2 flex flex-row items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer">
-                Projects
+            
+            {/* <Link href="https://drive.google.com/file/d/1azY6APPIBzBuBRAI-miOs6XePm64yGqZ/view?usp=share_link" smooth duration={500} offset={-80}> */}
+              <button className="group text-white w-fit px-6 py-3 my-2 flex flex-row items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer" onClick={handleRedirect}>
+                Resume
                 <div className="contents md:hidden">
-                  <Link to="projects" smooth duration={500} offset={-80}>
-                    Projects
-                  </Link>
+                  {/* <Link href="https://drive.google.com/file/d/1azY6APPIBzBuBRAI-miOs6XePm64yGqZ/view?usp=share_link" smooth duration={500} offset={-80}> */}
+                    Resume
+                  {/* </Link> */}
                 </div>
                 <span className="group-hover:rotate-90 duration-300">
                   <HiOutlineArrowRight size={18} className="ml-1" />
                 </span>
               </button>
-            </Link>
+            {/* </Link> */}
           </div>
-          <div className="inline md:hidden">
+          {/* <div className="inline md:hidden">
             <Link to="projects" smooth duration={500} offset={-80}>
               <button className="group text-white w-fit px-6 py-3 my-2 flex flex-row items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer">
                 Projects
@@ -46,7 +51,7 @@ const Home = () => {
                 </span>
               </button>
             </Link>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

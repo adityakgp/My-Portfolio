@@ -1,6 +1,6 @@
 import React from "react";
-import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
-import { HiOutlineMail, HiOutlineLink } from "react-icons/hi";
+import { FaGithub, FaInstagram, FaLinkedin, FaFacebook, FaWhatsapp } from "react-icons/fa";
+import { HiOutlineMail} from "react-icons/hi";
 
 const Socials = () => {
   const links = [
@@ -8,10 +8,10 @@ const Socials = () => {
       id: 1,
       child: (
         <>
-          Linktree <HiOutlineLink size={30} />
+          Facebook <FaFacebook size={30} />
         </>
       ),
-      href: "https://linktr.ee/agrpaavan",
+      href: "https://www.facebook.com/profile.php?id=100028712310561",
       style: "rounded-tr-md",
     },
     {
@@ -21,7 +21,7 @@ const Socials = () => {
           Github <FaGithub size={30} />
         </>
       ),
-      href: "https://github.com/AgrPaavan",
+      href: "https://github.com/adityakgp",
     },
     {
       id: 3,
@@ -30,7 +30,7 @@ const Socials = () => {
           LinkedIn <FaLinkedin size={30} />
         </>
       ),
-      href: "https://www.linkedin.com/in/paavan-agrawal-28186a201/",
+      href: "https://www.linkedin.com/in/aditya-das-b40b4320a/",
     },
     {
       id: 4,
@@ -39,7 +39,7 @@ const Socials = () => {
           Instagram <FaInstagram size={30} />
         </>
       ),
-      href: "https://www.instagram.com/paavanagr/",
+      href: "https://www.instagram.com/____adityadas____/",
     },
     {
       id: 5,
@@ -48,7 +48,17 @@ const Socials = () => {
           Mail <HiOutlineMail size={30} />
         </>
       ),
-      href: "mailto:paavanagr@gmail.com",
+      href: "mailto:adityadas20014@gmail.com",
+      style: "rounded-br-md",
+    },
+    {
+      id: 6,
+      child: (
+        <>
+          Whatsapp <FaWhatsapp size={30} />
+        </>
+      ),
+      href: "https://wa.me/919904391009",
       style: "rounded-br-md",
     },
   ];

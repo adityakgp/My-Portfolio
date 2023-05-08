@@ -98,7 +98,7 @@ const Navbar = () => {
       <div>
         <h1 className="text-5xl font-signature ml-2 text-accent hover:cursor-pointer">
           <Link to="home" smooth duration={500}>
-            Paavan
+            Aditya
           </Link>
         </h1>
       </div>

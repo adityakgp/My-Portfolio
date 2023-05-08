@@ -13,55 +13,34 @@ const About = () => {
           </h2>
         </div>
 
-        <p className="text-lg mt-10">
-          I am currently pursuing B.Tech in CSE with specialization in Software
-          Engineering from{" "}
-          <a
-            href="https://www.srmist.edu.in/"
-            target="_blank"
-            rel="noreferrer"
-            className="border-b-2 border-gray-500"
-          >
-            SRMIST
-          </a>
-          . I completed the schooling from{" "}
-          <a
-            href="http://www.doonschool.com/"
-            target="_blank"
-            rel="noreferrer"
-            className="border-b-2 border-gray-500"
-          >
-            The Doon School
-          </a>
-          .
+        
+
+        <br />
+
+        <p className="text-lg">
+          
+I am a student currently pursuing my education at the {" "}
+<a
+href="http://www.iitkgp.ac.in/"
+target="_blank"
+rel="noreferrer"
+className="border-b-2 border-gray-500"
+>Indian Institute of Technology Kharagpur</a>, with a projected graduation date of 2025. Alongside my academic endeavors, I have established myself as a skilled and proficient full-stack developer, specializing in various facets of web development, data mining, and machine learning.
+
         </p>
 
         <br />
 
         <p className="text-lg">
-          I started coding when I was in the 9th grade as a requirment for my
-          GCSE Computer Science course but have since felt in love with it. I
-          wish that I was introduced to the world of programming earlier in my
-          life but am happy that I came around to it sooner than later.
+          During my professional tenure, I have had the privilege of working at Chi Squarex Technologies, where I held the position of Head of Web Development. This experience allowed me to hone my skills and develop a deeper understanding of the complexities and nuances that come with managing and overseeing web development projects.
+
         </p>
 
         <br />
 
         <p className="text-lg">
-          Currently I am trying to upskill myself in the field of web
-          development. Recently I learnt how to use the react framework. I also
-          learnt how to use bootstrap and tailwind css frameworks. I also plan
-          to learn how to integrate databases and code the backend in hopes of
-          being a full-stack engineer.
-        </p>
+        As an individual, I am deeply passionate about the latest and most innovative technologies, and I am constantly seeking opportunities to explore and experiment with cutting-edge advancements. Additionally, I am fascinated by the intersection between technology and science and strive to delve deeper into this realm to unlock its full potential.
 
-        <br />
-
-        <p className="text-lg">
-          I know how to code in basic Java thanks to my school coursework and
-          have learnt basic C and C++ in my college course. I am pursuing a
-          specialization in software engineering so I hope I get to learn
-          advanced C++ to help me write complete softwares.
         </p>
       </div>
     </div>

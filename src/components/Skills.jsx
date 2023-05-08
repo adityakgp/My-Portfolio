@@ -4,12 +4,15 @@ import c from "../assets/skills/c.svg";
 import cpp from "../assets/skills/cpp.svg";
 import css from "../assets/skills/css.svg";
 import html from "../assets/skills/html.svg";
-import java from "../assets/skills/java.svg";
+import python from "../assets/skills/python.svg";
 import javascript from "../assets/skills/javascript.svg";
 import nextjs from "../assets/skills/nextjs.svg";
 import node from "../assets/skills/node.svg";
 import react from "../assets/skills/react.svg";
 import sass from "../assets/skills/sass.svg";
+import matlab from "../assets/skills/matlab.svg";
+import mongodb from "../assets/skills/mongodb.svg";
+import firebase from "../assets/skills/firebase.svg";
 import tailwind from "../assets/skills/tailwind.svg";
 
 const Skills = () => {
@@ -71,20 +74,38 @@ const Skills = () => {
     {
       id: 10,
       src: c,
-      title: "Basic C",
+      title: "C",
       style: "shadow-blue-600",
     },
     {
       id: 11,
       src: cpp,
-      title: "Basic C++",
+      title: "C++",
       style: "shadow-blue-800",
     },
     {
       id: 12,
-      src: java,
-      title: "Basic Java",
+      src: python,
+      title: "Python",
+      style: "shadow-yellow-400",
+    },
+    {
+      id: 13,
+      src: matlab,
+      title: "Matlab",
       style: "shadow-orange-400",
+    },
+    {
+      id: 14,
+      src: mongodb,
+      title: "MongoDB",
+      style: "shadow-green-400",
+    },
+    {
+      id: 15,
+      src: firebase,
+      title: "Firebase",
+      style: "shadow-yellow-400",
     },
   ];
 
@@ -101,7 +122,7 @@ const Skills = () => {
           <p className="py-6">These are the technologies I have worked with</p>
         </div>
 
-        <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">
+        <div className="w-full grid grid-cols-2 sm:grid-cols-5 gap-8 text-center py-8 px-12 sm:px-0">
           {skills.map(({ id, src, title, style }) => (
             <div
               key={id}
